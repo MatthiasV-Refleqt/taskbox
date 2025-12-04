@@ -36,6 +36,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
           id="title-{{ task?.id }}"
           name="title-{{ task?.id }}"
           placeholder="Input title"
+          style="background-color: red;"
         />
       </label>
       <button
