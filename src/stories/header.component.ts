@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ButtonComponent } from './button.component';
-import type { User } from './user';
+import type { User } from './User';
 
 @Component({
   selector: 'storybook-header',
